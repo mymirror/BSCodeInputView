@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BSCodeInputView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of BSCodeInputView."
 
   spec.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mymirror/BSCodeInputView.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "BSCodeInputView/BSCodeInputView.h", "BSCodeInputView/BSCodeInputView.m"
+  spec.source_files  = "BSCodeInputView/BSCodeInputView/*.{h,m}"
 
   spec.dependency "Masonry"
 

@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		10F62A0A40FC0D9642891F7E /* libPods-BSCodeInputView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051F180B0669E3F5B8BBFC5 /* libPods-BSCodeInputView.a */; };
+		3555BEE3219ABCA1009D4CEF /* BSNoCopyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555BEDD219ABCA1009D4CEF /* BSNoCopyTextField.m */; };
+		3555BEE4219ABCA1009D4CEF /* BSCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555BEDF219ABCA1009D4CEF /* BSCodeInputView.m */; };
+		3555BEE5219ABCA1009D4CEF /* BSClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3555BEE1219ABCA1009D4CEF /* BSClickView.m */; };
 		3562F528219AB61A00CBC067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F527219AB61A00CBC067 /* AppDelegate.m */; };
 		3562F52B219AB61A00CBC067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F52A219AB61A00CBC067 /* ViewController.m */; };
 		3562F52E219AB61A00CBC067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3562F52C219AB61A00CBC067 /* Main.storyboard */; };
 		3562F530219AB61B00CBC067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3562F52F219AB61B00CBC067 /* Assets.xcassets */; };
 		3562F533219AB61B00CBC067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3562F531219AB61B00CBC067 /* LaunchScreen.storyboard */; };
 		3562F536219AB61C00CBC067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F535219AB61C00CBC067 /* main.m */; };
-		3562F53E219AB63B00CBC067 /* BSCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F53C219AB63B00CBC067 /* BSCodeInputView.m */; };
-		3562F543219AB66C00CBC067 /* BSClickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F53F219AB66B00CBC067 /* BSClickView.m */; };
-		3562F544219AB66C00CBC067 /* BSNoCopyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3562F540219AB66B00CBC067 /* BSNoCopyTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3555BEDD219ABCA1009D4CEF /* BSNoCopyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNoCopyTextField.m; sourceTree = "<group>"; };
+		3555BEDE219ABCA1009D4CEF /* BSClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSClickView.h; sourceTree = "<group>"; };
+		3555BEDF219ABCA1009D4CEF /* BSCodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCodeInputView.m; sourceTree = "<group>"; };
+		3555BEE0219ABCA1009D4CEF /* BSNoCopyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNoCopyTextField.h; sourceTree = "<group>"; };
+		3555BEE1219ABCA1009D4CEF /* BSClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSClickView.m; sourceTree = "<group>"; };
+		3555BEE2219ABCA1009D4CEF /* BSCodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCodeInputView.h; sourceTree = "<group>"; };
 		3562F523219AB61A00CBC067 /* BSCodeInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSCodeInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3562F526219AB61A00CBC067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3562F527219AB61A00CBC067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,12 +36,6 @@
 		3562F532219AB61B00CBC067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3562F534219AB61B00CBC067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3562F535219AB61C00CBC067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3562F53C219AB63B00CBC067 /* BSCodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCodeInputView.m; sourceTree = "<group>"; };
-		3562F53D219AB63B00CBC067 /* BSCodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCodeInputView.h; sourceTree = "<group>"; };
-		3562F53F219AB66B00CBC067 /* BSClickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSClickView.m; sourceTree = "<group>"; };
-		3562F540219AB66B00CBC067 /* BSNoCopyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNoCopyTextField.m; sourceTree = "<group>"; };
-		3562F541219AB66B00CBC067 /* BSClickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSClickView.h; sourceTree = "<group>"; };
-		3562F542219AB66B00CBC067 /* BSNoCopyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNoCopyTextField.h; sourceTree = "<group>"; };
 		4051F180B0669E3F5B8BBFC5 /* libPods-BSCodeInputView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSCodeInputView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB09632ED6A49D2F2662D80 /* Pods-BSCodeInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCodeInputView.debug.xcconfig"; path = "Target Support Files/Pods-BSCodeInputView/Pods-BSCodeInputView.debug.xcconfig"; sourceTree = "<group>"; };
 		EE5098A59775BB12F3FFF1C8 /* Pods-BSCodeInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCodeInputView.release.xcconfig"; path = "Target Support Files/Pods-BSCodeInputView/Pods-BSCodeInputView.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +61,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3555BEDC219ABCA1009D4CEF /* BSCodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				3555BEDD219ABCA1009D4CEF /* BSNoCopyTextField.m */,
+				3555BEDE219ABCA1009D4CEF /* BSClickView.h */,
+				3555BEDF219ABCA1009D4CEF /* BSCodeInputView.m */,
+				3555BEE0219ABCA1009D4CEF /* BSNoCopyTextField.h */,
+				3555BEE1219ABCA1009D4CEF /* BSClickView.m */,
+				3555BEE2219ABCA1009D4CEF /* BSCodeInputView.h */,
+			);
+			path = BSCodeInputView;
+			sourceTree = "<group>";
+		};
 		3562F51A219AB61A00CBC067 = {
 			isa = PBXGroup;
 			children = (
@@ -82,14 +95,9 @@
 		3562F525219AB61A00CBC067 /* BSCodeInputView */ = {
 			isa = PBXGroup;
 			children = (
+				3555BEDC219ABCA1009D4CEF /* BSCodeInputView */,
 				3562F526219AB61A00CBC067 /* AppDelegate.h */,
 				3562F527219AB61A00CBC067 /* AppDelegate.m */,
-				3562F53D219AB63B00CBC067 /* BSCodeInputView.h */,
-				3562F53C219AB63B00CBC067 /* BSCodeInputView.m */,
-				3562F541219AB66B00CBC067 /* BSClickView.h */,
-				3562F53F219AB66B00CBC067 /* BSClickView.m */,
-				3562F542219AB66B00CBC067 /* BSNoCopyTextField.h */,
-				3562F540219AB66B00CBC067 /* BSNoCopyTextField.m */,
 				3562F529219AB61A00CBC067 /* ViewController.h */,
 				3562F52A219AB61A00CBC067 /* ViewController.m */,
 				3562F52C219AB61A00CBC067 /* Main.storyboard */,
@@ -206,12 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3555BEE3219ABCA1009D4CEF /* BSNoCopyTextField.m in Sources */,
 				3562F52B219AB61A00CBC067 /* ViewController.m in Sources */,
+				3555BEE5219ABCA1009D4CEF /* BSClickView.m in Sources */,
+				3555BEE4219ABCA1009D4CEF /* BSCodeInputView.m in Sources */,
 				3562F536219AB61C00CBC067 /* main.m in Sources */,
-				3562F544219AB66C00CBC067 /* BSNoCopyTextField.m in Sources */,
-				3562F543219AB66C00CBC067 /* BSClickView.m in Sources */,
 				3562F528219AB61A00CBC067 /* AppDelegate.m in Sources */,
-				3562F53E219AB63B00CBC067 /* BSCodeInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
