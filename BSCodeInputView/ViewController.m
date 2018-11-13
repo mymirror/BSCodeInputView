@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BSCodeInputView.h"
 
 @interface ViewController ()
 
