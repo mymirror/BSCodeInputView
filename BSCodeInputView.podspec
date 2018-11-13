@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/mymirror/BSCodeInputView.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "BSCodeInputView/BSCodeInputView/*.{h,m}"
+  spec.source_files  = "BSCodeInputView/BSCodeInputView/BSClickView.h","BSCodeInputView/BSCodeInputView/BSClickView.m","BSCodeInputView/BSCodeInputView/BSCodeInputView.h","BSCodeInputView/BSCodeInputView/BSCodeInputView.m","BSCodeInputView/BSCodeInputView/BSNoCopyTextField.h","BSCodeInputView/BSCodeInputView/BSNoCopyTextField.m"
 
   spec.dependency "Masonry"
 
